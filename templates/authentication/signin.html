@@ -15,6 +15,9 @@
     <body>
      <h3>Welcome to signin page</h3>
         <script src="" async defer></script>
+        <form action="/signin" method="post">
+            {% csrf_token %}
+        </form>
     </body>
     </html>
 
